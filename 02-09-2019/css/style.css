@@ -2,6 +2,7 @@
 body{
     margin: 30px;
     background: url('../img/background.jpg');
+	background-size: cover;
     overflow-y: hidden;
 }
 
@@ -20,8 +21,14 @@ h1{
 .categorybox{
     background-color: #f1f1f1;
     display: inline-block;
-    margin: 0px 30px;
+    margin: 0px 45px;
     border-radius: 10px;
+	opacity: 0.55;
+	transition: 1s;
+}
+
+.categorybox:hover{
+	opacity: 1.5;
 }
 
 .image{
@@ -34,3 +41,4 @@ h1{
     font-size: 200%;
     background: none;
 }
+
