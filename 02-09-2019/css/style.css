@@ -16,19 +16,26 @@ h1{
     font-size: 300%;
     font-family: 'Montserrat',Calibri;
     font-weight: 50%;
+    transition: 0.5s;
+}
+
+h1:hover{
+  font-size: 500%;
+  background-color: #f1f1f1;
 }
 
 .categorybox{
     background-color: #f1f1f1;
     display: inline-block;
-    margin: 0px 45px;
+    margin: 0px 90px;
     border-radius: 10px;
 	opacity: 0.55;
-	transition: 1s;
+	transition: 0.5s;
 }
 
 .categorybox:hover{
 	opacity: 1.5;
+  font-size: 140%;
 }
 
 .image{
@@ -41,4 +48,3 @@ h1{
     font-size: 200%;
     background: none;
 }
-
